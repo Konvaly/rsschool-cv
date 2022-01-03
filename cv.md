@@ -45,7 +45,8 @@ I used to work in a bank, so I have a lot of experience in solving non-standard 
 
 ## Code Examples
 
-```let sum = 0;
+```
+let sum = 0;
 
 function getSumOfNumbers (number, type = 'odd') {
   if (type === 'odd') {
