@@ -10,8 +10,13 @@
   font-weight: 700;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato';
+  font-size: 16px;
   box-sizing: border-box;
   min-height: 100vh;
   margin: 0;
@@ -28,19 +33,22 @@ body {
 
 /* HEADER */
 .header {
-  font-weight: 700;
+  font-weight: 400;
   background-color: aqua;
 }
 
 .container-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  min-width: 400px;
 }
 
 /* HEADER-AVATAR */
 .avatar {
+  /* width: 120px; */
   width: 120px;
+  min-width: 100px;
   height: 120px;
   overflow: hidden;
   background: #fff;
@@ -59,6 +67,13 @@ body {
   -webkit-border-radius: 50%;
 }
 
+/* HEADER-PROFILE */
+.profile {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 /* HEADER-NAVIGATION */
 .navigation {
   width: 60%;
@@ -68,6 +83,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  list-style: none;
 }
 .navigation-item {
 }
