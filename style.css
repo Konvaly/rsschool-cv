@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('assets/fonts/Lato-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('assets/fonts/Lato-Bold.ttf');
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Lato';
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  font-weight: 700;
+  background-color: aqua;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* HEADER-AVATAR */
+.avatar {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: rgb(116, 163, 167) 2px solid;
+}
+
+.avatar-photo {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+/* HEADER-NAVIGATION */
+.navigation {
+  width: 60%;
+}
+.navigation-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.navigation-item {
+}
+
+/* MAIN */
+.main {
+  font-weight: 400;
+  background-color: chartreuse;
+}
+
+/* FOOTER */
+.footer {
+  font-weight: 400;
+  background-color: coral;
+}
