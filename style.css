@@ -94,8 +94,25 @@ body {
   background-color: chartreuse;
 }
 
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
 /* FOOTER */
 .footer {
   font-weight: 400;
   background-color: coral;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
 }
